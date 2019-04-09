@@ -5,3 +5,4 @@
 3. Add about me information.
 4. Learn how to add gmail stuff to contact form in react.
 5. Think about possibly using Redux.
+6. Complete unfinished components.
