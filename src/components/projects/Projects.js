@@ -42,11 +42,23 @@ const Projects = () => {
           <Card className="project">
             // add CardImg for image of project
             <CardTitle>PintTrackr 1.0</CardTitle>
-            <CardSubtitle>A web-application used to track beers that one has 
+            <CardSubtitle>A web-application used to track beers that one has
               tried over the years.</CardSubtitle>
             <CardText>Stack:</CardText>
             // insert either languages by text or images - Ruby on Rails, ActiveRecord
             // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails
+          </Card>
+        </Col>
+        <Col>
+          <Card className="project">
+            // add CardImg for image of project
+            <CardTitle>DayBooks</CardTitle>
+            <CardSubtitle>A Ruby CLI gem that allows a user to comb through a
+              list of all books written and published by famous author, Sylvia
+              Day.</CardSubtitle>
+            <CardText>Stack:</CardText>
+            // insert either languages by text or images - Ruby
+            // insert github link via github button as sm-logo - https://github.com/torianne02/CLI-Project-Day-Library
           </Card>
         </Col>
       </Row>
