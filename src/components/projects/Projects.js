@@ -1,5 +1,10 @@
 import React from 'react';
 import { Row, Col, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
+import crawfordWedding from '../images/projects/crawford-wedding.png';
+import dayBooks from '../images/projects/day-books.png';
+import pintTrackr1 from '../images/projects/pint-trackr-1.0.png';
+import pintTrackr2 from '../images/projects/pint-trackr-2.0.png';
+import weatherCaster from '../images/projects/weather-caster.png';
 
 const Projects = () => {
   return (
@@ -20,7 +25,7 @@ const Projects = () => {
         </Col>
         <Col>
           <Card className="project">
-            // add CardImg for image of project
+            <CardImg top width="100%" src={crawfordWedding} alt="Crawford Wedding Screenshot" />
             <CardBody>
               <CardTitle>Crawford Wedding</CardTitle>
               <CardSubtitle>A multi-functional wedding web-application.</CardSubtitle>
@@ -32,7 +37,7 @@ const Projects = () => {
         </Col>
         <Col>
           <Card className="project">
-            // add CardImg for image of project
+            <CardImg top width="100%" src={pintTrackr2} alt="PintTrackr 2.0 Screenshot" />
             <CardBody>
               <CardTitle>PintTrackr 2.0</CardTitle>
               <CardSubtitle>A web-application used to track beers that one has
@@ -47,7 +52,7 @@ const Projects = () => {
       <Row>
         <Col>
           <Card className="project">
-            // add CardImg for image of project
+            <CardImg top width="100%" src={weatherCaster} alt="Weather Caster Screenshot" />
             <CardBody>
               <CardTitle>Weather Caster</CardTitle>
               <CardSubtitle>A simple current forecast web-application.</CardSubtitle>
@@ -59,7 +64,7 @@ const Projects = () => {
         </Col>
         <Col>
           <Card className="project">
-            // add CardImg for image of project
+            <CardImg top width="100%" src={pintTrackr1} alt="PintTrackr 1.0 Screenshot" />
             <CardBody>
               <CardTitle>PintTrackr 1.0</CardTitle>
               <CardSubtitle>A web-application used to track beers that one has
@@ -72,7 +77,7 @@ const Projects = () => {
         </Col>
         <Col>
           <Card className="project">
-            // add CardImg for image of project
+            <CardImg top width="100%" src={dayBooks} alt="DayBooks Screenshot" />
             <CardBody>
               <CardTitle>DayBooks</CardTitle>
               <CardSubtitle>A Ruby CLI gem that allows a user to comb through a
