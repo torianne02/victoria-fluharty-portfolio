@@ -8,6 +8,17 @@ const Projects = () => {
         <Col>
           <Card className="project">
             // add CardImg for image of project
+            <CardTitle>Personal Portfolio</CardTitle>
+            <CardSubtitle>Portfolio web-applicaiton built to display projects
+              and other vital information.</CardSubtitle>
+            <CardText>Stack:</CardText>
+            // insert either languages by text or images - React.js, Reactstrap, Bootstrap, Javascript, CSS
+            // insert github link via github button as sm-logo - https://github.com/torianne02/victoria-fluharty-portfolio
+          </Card>
+        </Col>
+        <Col>
+          <Card className="project">
+            // add CardImg for image of project
             <CardTitle>Crawford Wedding</CardTitle>
             <CardSubtitle>A multi-functional wedding web-application.</CardSubtitle>
             <CardText>Stack:</CardText>
@@ -26,6 +37,8 @@ const Projects = () => {
             // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails-js
           </Card>
         </Col>
+      </Row>
+      <Row>
         <Col>
           <Card className="project">
             // add CardImg for image of project
@@ -36,8 +49,6 @@ const Projects = () => {
             // insert github link via github button as sm-logo - https://github.com/torianne02/weather-caster
           </Card>
         </Col>
-      </Row>
-      <Row>
         <Col>
           <Card className="project">
             // add CardImg for image of project
