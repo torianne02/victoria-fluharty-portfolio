@@ -22,7 +22,6 @@ const Projects = () => {
               <CardTitle>Personal Portfolio</CardTitle>
               <CardSubtitle>Portfolio web-applicaiton built to display projects
                 and other vital information.</CardSubtitle>
-              <CardText>Stack:</CardText>
               <Row className="stack">
                 <img className="proj-lang-logo" src={reactLogo} />
                 <img className="proj-lang-logo" src={javascriptLogo} />
@@ -37,14 +36,13 @@ const Projects = () => {
             <Card body>
               <CardTitle>Crawford Wedding</CardTitle>
               <CardSubtitle>A multi-functional wedding web-application.</CardSubtitle>
-              <CardText>Stack:</CardText>
-                <Row className="stack">
-                  <img className="proj-lang-logo" src={reactLogo} />
-                  <img className="proj-lang-logo" src={rubyLogo} />
-                  <img className="proj-lang-logo" src={railsLogo} />
-                  <img className="proj-lang-logo" src={reduxLogo} />
-                  <img className="proj-lang-logo" src={javascriptLogo} />
-                </Row>
+              <Row className="stack">
+                <img className="proj-lang-logo" src={reactLogo} />
+                <img className="proj-lang-logo" src={rubyLogo} />
+                <img className="proj-lang-logo" src={railsLogo} />
+                <img className="proj-lang-logo" src={reduxLogo} />
+                <img className="proj-lang-logo" src={javascriptLogo} />
+              </Row>
               // insert github link via github button as sm-logo - https://github.com/torianne02/crawford-wedding-frontend
             </Card>
           </Card>
@@ -56,7 +54,6 @@ const Projects = () => {
               <CardTitle>PintTrackr 2.0</CardTitle>
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
-              <CardText>Stack:</CardText>
               <Row className="stack">
                 <img className="proj-lang-logo" src={rubyLogo} />
                 <img className="proj-lang-logo" src={railsLogo} />
@@ -74,7 +71,6 @@ const Projects = () => {
             <Card body>
               <CardTitle>Weather Caster</CardTitle>
               <CardSubtitle>A simple current forecast web-application.</CardSubtitle>
-              <CardText>Stack:</CardText>
               <Row className="stack">
                 <img className="proj-lang-logo" src={reactLogo} />
                 <img className="proj-lang-logo" src={javascriptLogo} />
@@ -90,7 +86,6 @@ const Projects = () => {
               <CardTitle>PintTrackr 1.0</CardTitle>
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
-              <CardText>Stack:</CardText>
               <Row className="stack">
                 <img className="proj-lang-logo" src={rubyLogo} />
                 <img className="proj-lang-logo" src={railsLogo} />
@@ -107,7 +102,6 @@ const Projects = () => {
               <CardSubtitle>A Ruby CLI gem that allows a user to comb through a
                 list of all books written and published by famous author, Sylvia
                 Day.</CardSubtitle>
-              <CardText>Stack:</CardText>
               <Row className="stack">
                 <img className="proj-lang-logo" src={rubyLogo} />
               </Row>
