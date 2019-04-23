@@ -5,6 +5,13 @@ import dayBooks from '../images/projects/day-books.png';
 import pintTrackr1 from '../images/projects/pint-trackr-1.0.png';
 import pintTrackr2 from '../images/projects/pint-trackr-2.0.png';
 import weatherCaster from '../images/projects/weather-caster.png';
+import javascriptLogo from '../images/languages/javascript-logo-sm.png';
+import railsLogo from '../images/languages/rails-logo-sm.png';
+import rubyLogo from '../images/languages/ruby-logo-sm.png';
+import reactLogo from '../images/languages/react-logo-sm.png';
+import reduxLogo from '../images/languages/redux-logo-sm.png';
+
+
 
 const Projects = () => {
   return (
@@ -17,7 +24,7 @@ const Projects = () => {
               <CardTitle>Personal Portfolio</CardTitle>
               <CardSubtitle>Portfolio web-applicaiton built to display projects
                 and other vital information.</CardSubtitle>
-              <CardText>Stack:</CardText>
+              <CardText classname="stack">Stack:</CardText>
               // insert either languages by text or images - React.js, Reactstrap, Bootstrap, Javascript, CSS
               // insert github link via github button as sm-logo - https://github.com/torianne02/victoria-fluharty-portfolio
             </Card>
@@ -29,7 +36,14 @@ const Projects = () => {
             <Card body>
               <CardTitle>Crawford Wedding</CardTitle>
               <CardSubtitle>A multi-functional wedding web-application.</CardSubtitle>
-              <CardText>Stack:</CardText>
+              <CardText classname="stack">Stack:</CardText>
+                <Row>
+                  <img className="proj-lang-logo" src={reactLogo} />
+                  <img className="proj-lang-logo" src={rubyLogo} />
+                  <img className="proj-lang-logo" src={railsLogo} />
+                  <img className="proj-lang-logo" src={reduxLogo} />
+                  <img className="proj-lang-logo" src={javascriptLogo} />
+                </Row>
               // insert either languages by text or images - React.js, Ruby on Rails, JavaScript, SQLite, HTML, CSS, Reactstrap, Bootstrap
               // insert github link via github button as sm-logo - https://github.com/torianne02/crawford-wedding-frontend
             </Card>
@@ -42,7 +56,7 @@ const Projects = () => {
               <CardTitle>PintTrackr 2.0</CardTitle>
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
-              <CardText>Stack:</CardText>
+              <CardText classname="stack">Stack:</CardText>
               // insert either languages by text or images - Ruby on Rails, JavaScript, SQLite, HTML, CSS, AJAX, jQuery, JSON
               // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails-js
             </Card>
@@ -56,7 +70,7 @@ const Projects = () => {
             <Card body>
               <CardTitle>Weather Caster</CardTitle>
               <CardSubtitle>A simple current forecast web-application.</CardSubtitle>
-              <CardText>Stack:</CardText>
+              <CardText classname="stack">Stack:</CardText>
               // insert either languages by text or images - React.js, Reactstrap, Bootstrap, Javascript, CSS
               // insert github link via github button as sm-logo - https://github.com/torianne02/weather-caster
             </Card>
@@ -69,7 +83,7 @@ const Projects = () => {
               <CardTitle>PintTrackr 1.0</CardTitle>
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
-              <CardText>Stack:</CardText>
+              <CardText classname="stack">Stack:</CardText>
               // insert either languages by text or images - Ruby on Rails, ActiveRecord
               // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails
             </Card>
@@ -83,7 +97,7 @@ const Projects = () => {
               <CardSubtitle>A Ruby CLI gem that allows a user to comb through a
                 list of all books written and published by famous author, Sylvia
                 Day.</CardSubtitle>
-              <CardText>Stack:</CardText>
+              <CardText classname="stack">Stack:</CardText>
               // insert either languages by text or images - Ruby
               // insert github link via github button as sm-logo - https://github.com/torianne02/CLI-Project-Day-Library
             </Card>

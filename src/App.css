@@ -23,6 +23,12 @@
   color: #61dafb;
 }
 
+img.proj-lang-logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
 /* will implement no border but need borders ATM while building */
 
 /* div.card {
