@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <Row>
-        <Col sm="6">
+        <Col sm="4" py="2">
           <Card className="project">
             // add CardImg for image of project
             <Card body>
@@ -23,7 +23,7 @@ const Projects = () => {
             </Card>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="4" py="2">
           <Card className="project">
             <CardImg top width="50%" src={crawfordWedding} alt="Crawford Wedding Screenshot" />
             <Card body>
@@ -35,7 +35,7 @@ const Projects = () => {
             </Card>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="4" py="2">
           <Card className="project">
             <CardImg top width="50%" src={pintTrackr2} alt="PintTrackr 2.0 Screenshot" />
             <Card body>
@@ -50,7 +50,7 @@ const Projects = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm="6">
+        <Col sm="4" py="2">
           <Card className="project">
             <CardImg top width="50%" src={weatherCaster} alt="Weather Caster Screenshot" />
             <Card body>
@@ -62,7 +62,7 @@ const Projects = () => {
             </Card>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="4" py="2">
           <Card className="project">
             <CardImg top width="50%" src={pintTrackr1} alt="PintTrackr 1.0 Screenshot" />
             <Card body>
@@ -75,7 +75,7 @@ const Projects = () => {
             </Card>
           </Card>
         </Col>
-        <Col sm="6">
+        <Col sm="4" py="2">
           <Card className="project">
             <CardImg top width="50%" src={dayBooks} alt="DayBooks Screenshot" />
             <Card body>
