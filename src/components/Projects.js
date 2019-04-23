@@ -11,8 +11,6 @@ import rubyLogo from '../images/languages/ruby-logo-sm.png';
 import reactLogo from '../images/languages/react-logo-sm.png';
 import reduxLogo from '../images/languages/redux-logo-sm.png';
 
-
-
 const Projects = () => {
   return (
     <div className="projects">
