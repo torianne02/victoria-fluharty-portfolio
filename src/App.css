@@ -29,6 +29,26 @@ img.proj-lang-logo {
   margin-right: 10px;
 }
 
+div.card-title {
+  font-size: 22px;
+  color: #7C9082;
+  text-align: center;
+}
+
+div.card-subtitle {
+  font-size: 16px;
+  color: #393D3F;
+  text-align: center;
+}
+
+p.card-text {
+  font-size: 14px;
+}
+
+div.stack.row {
+  align-self: center;
+}
+
 /* will implement no border but need borders ATM while building */
 
 /* div.card {
