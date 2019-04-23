@@ -23,6 +23,12 @@
   color: #61dafb;
 }
 
+/* will implement no border but need borders ATM while building */
+
+/* div.card {
+  border: none;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
