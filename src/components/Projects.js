@@ -25,7 +25,10 @@ const Projects = () => {
               <CardSubtitle>Portfolio web-applicaiton built to display projects
                 and other vital information.</CardSubtitle>
               <CardText classname="stack">Stack:</CardText>
-              // insert either languages by text or images - React.js, Reactstrap, Bootstrap, Javascript, CSS
+              <Row>
+                <img className="proj-lang-logo" src={reactLogo} />
+                <img className="proj-lang-logo" src={javascriptLogo} />
+              </Row>
               // insert github link via github button as sm-logo - https://github.com/torianne02/victoria-fluharty-portfolio
             </Card>
           </Card>
@@ -44,7 +47,6 @@ const Projects = () => {
                   <img className="proj-lang-logo" src={reduxLogo} />
                   <img className="proj-lang-logo" src={javascriptLogo} />
                 </Row>
-              // insert either languages by text or images - React.js, Ruby on Rails, JavaScript, SQLite, HTML, CSS, Reactstrap, Bootstrap
               // insert github link via github button as sm-logo - https://github.com/torianne02/crawford-wedding-frontend
             </Card>
           </Card>
@@ -57,7 +59,11 @@ const Projects = () => {
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
               <CardText classname="stack">Stack:</CardText>
-              // insert either languages by text or images - Ruby on Rails, JavaScript, SQLite, HTML, CSS, AJAX, jQuery, JSON
+              <Row>
+                <img className="proj-lang-logo" src={rubyLogo} />
+                <img className="proj-lang-logo" src={railsLogo} />
+                <img className="proj-lang-logo" src={javascriptLogo} />
+              </Row>
               // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails-js
             </Card>
           </Card>
@@ -71,7 +77,10 @@ const Projects = () => {
               <CardTitle>Weather Caster</CardTitle>
               <CardSubtitle>A simple current forecast web-application.</CardSubtitle>
               <CardText classname="stack">Stack:</CardText>
-              // insert either languages by text or images - React.js, Reactstrap, Bootstrap, Javascript, CSS
+              <Row>
+                <img className="proj-lang-logo" src={reactLogo} />
+                <img className="proj-lang-logo" src={javascriptLogo} />
+              </Row>
               // insert github link via github button as sm-logo - https://github.com/torianne02/weather-caster
             </Card>
           </Card>
@@ -84,7 +93,10 @@ const Projects = () => {
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
               <CardText classname="stack">Stack:</CardText>
-              // insert either languages by text or images - Ruby on Rails, ActiveRecord
+              <Row>
+                <img className="proj-lang-logo" src={rubyLogo} />
+                <img className="proj-lang-logo" src={railsLogo} />
+              </Row>
               // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails
             </Card>
           </Card>
@@ -98,7 +110,9 @@ const Projects = () => {
                 list of all books written and published by famous author, Sylvia
                 Day.</CardSubtitle>
               <CardText classname="stack">Stack:</CardText>
-              // insert either languages by text or images - Ruby
+              <Row>
+                <img className="proj-lang-logo" src={rubyLogo} />
+              </Row>
               // insert github link via github button as sm-logo - https://github.com/torianne02/CLI-Project-Day-Library
             </Card>
           </Card>
