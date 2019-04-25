@@ -48,7 +48,11 @@ const Projects = () => {
                 <img className="proj-lang-logo" src={reduxLogo} />
                 <img className="proj-lang-logo" src={javascriptLogo} />
               </Row>
-              // insert github link via github button as sm-logo - https://github.com/torianne02/crawford-wedding-frontend
+              <Row className="links">
+                <a href="https://github.com/torianne02/crawford-wedding-frontend">
+                  <img src={githubLogo} alt="Github logo as repository link" />
+                </a>
+              </Row>
             </Card>
           </Card>
         </Col>
@@ -64,7 +68,11 @@ const Projects = () => {
                 <img className="proj-lang-logo" src={railsLogo} />
                 <img className="proj-lang-logo" src={javascriptLogo} />
               </Row>
-              // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails-js
+              <Row className="links">
+                <a href="https://github.com/torianne02/pint-trackr-rails-js">
+                  <img src={githubLogo} alt="Github logo as repository link" />
+                </a>
+              </Row>
             </Card>
           </Card>
         </Col>
@@ -80,7 +88,11 @@ const Projects = () => {
                 <img className="proj-lang-logo" src={reactLogo} />
                 <img className="proj-lang-logo" src={javascriptLogo} />
               </Row>
-              // insert github link via github button as sm-logo - https://github.com/torianne02/weather-caster
+              <Row className="links">
+                <a href="https://github.com/torianne02/weather-caster">
+                  <img src={githubLogo} alt="Github logo as repository link" />
+                </a>
+              </Row>
             </Card>
           </Card>
         </Col>
@@ -95,7 +107,11 @@ const Projects = () => {
                 <img className="proj-lang-logo" src={rubyLogo} />
                 <img className="proj-lang-logo" src={railsLogo} />
               </Row>
-              // insert github link via github button as sm-logo - https://github.com/torianne02/pint-trackr-rails
+              <Row className="links">
+                <a href="https://github.com/torianne02/pint-trackr-rails">
+                  <img src={githubLogo} alt="Github logo as repository link" />
+                </a>
+              </Row>
             </Card>
           </Card>
         </Col>
@@ -110,7 +126,11 @@ const Projects = () => {
               <Row className="stack">
                 <img className="proj-lang-logo" src={rubyLogo} />
               </Row>
-              // insert github link via github button as sm-logo - https://github.com/torianne02/CLI-Project-Day-Library
+              <Row className="links">
+                <a href="https://github.com/torianne02/CLI-Project-Day-Library">
+                  <img src={githubLogo} alt="Github logo as repository link" />
+                </a>
+              </Row>
             </Card>
           </Card>
         </Col>
