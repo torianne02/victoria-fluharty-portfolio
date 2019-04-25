@@ -26,7 +26,7 @@
 img.proj-lang-logo {
   height: 40px;
   width: 40px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 div.card-title {
@@ -43,8 +43,13 @@ div.card-subtitle {
 
 div.stack.row {
   align-self: center;
+  margin-top: 10px;
 }
 
+div.links.row {
+  align-self: center;
+  margin-top: 10px;
+}
 /* will implement no border but need borders ATM while building */
 
 /* div.card {
