@@ -10,6 +10,7 @@ import railsLogo from '../images/languages/rails-logo-sm.png';
 import rubyLogo from '../images/languages/ruby-logo-sm.png';
 import reactLogo from '../images/languages/react-logo-sm.png';
 import reduxLogo from '../images/languages/redux-logo-sm.png';
+import githubLogo from '../images/logos/github-logo-sm.png';
 
 const Projects = () => {
   return (
@@ -26,7 +27,11 @@ const Projects = () => {
                 <img className="proj-lang-logo" src={reactLogo} />
                 <img className="proj-lang-logo" src={javascriptLogo} />
               </Row>
-              // insert github link via github button as sm-logo - https://github.com/torianne02/victoria-fluharty-portfolio
+              <Row className="links">
+                <a href="https://github.com/torianne02/victoria-fluharty-portfolio">
+                  <img src={githubLogo} alt="Github logo as repository link" />
+                </a>
+              </Row>
             </Card>
           </Card>
         </Col>
