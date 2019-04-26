@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card, CardImg, CardText, CardTitle, CardSubtitle, Container } from 'reactstrap';
+import { Row, Col, Card, CardImg, CardTitle, CardSubtitle } from 'reactstrap';
 import crawfordWedding from '../images/projects/crawford-wedding.png';
 import dayBooks from '../images/projects/day-books.png';
 import pintTrackr1 from '../images/projects/pint-trackr-1.0.png';
