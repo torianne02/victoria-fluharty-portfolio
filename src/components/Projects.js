@@ -24,8 +24,8 @@ const Projects = () => {
               <CardSubtitle>Portfolio web-applicaiton built to display projects
                 and other vital information.</CardSubtitle>
               <Row className="stack">
-                <img className="proj-lang-logo" src={reactLogo} />
-                <img className="proj-lang-logo" src={javascriptLogo} />
+                <img className="proj-lang-logo" src={reactLogo} alt="React Logo" />
+                <img className="proj-lang-logo" src={javascriptLogo} alt="JavaScript Logo" />
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/victoria-fluharty-portfolio">
@@ -42,11 +42,11 @@ const Projects = () => {
               <CardTitle>Crawford Wedding</CardTitle>
               <CardSubtitle>A multi-functional wedding web-application.</CardSubtitle>
               <Row className="stack">
-                <img className="proj-lang-logo" src={reactLogo} />
-                <img className="proj-lang-logo" src={rubyLogo} />
-                <img className="proj-lang-logo" src={railsLogo} />
-                <img className="proj-lang-logo" src={reduxLogo} />
-                <img className="proj-lang-logo" src={javascriptLogo} />
+                <img className="proj-lang-logo" src={reactLogo} alt="React Logo" />
+                <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
+                <img className="proj-lang-logo" src={railsLogo} alt="Rails Logo" />
+                <img className="proj-lang-logo" src={reduxLogo} alt="Redux Logo" />
+                <img className="proj-lang-logo" src={javascriptLogo} alt="Javascript Logo" />
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/crawford-wedding-frontend">
@@ -64,9 +64,9 @@ const Projects = () => {
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
               <Row className="stack">
-                <img className="proj-lang-logo" src={rubyLogo} />
-                <img className="proj-lang-logo" src={railsLogo} />
-                <img className="proj-lang-logo" src={javascriptLogo} />
+                <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
+                <img className="proj-lang-logo" src={railsLogo} alt="Rails Logo" />
+                <img className="proj-lang-logo" src={javascriptLogo} alt="JavaScript Logo" />
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/pint-trackr-rails-js">
@@ -85,8 +85,8 @@ const Projects = () => {
               <CardTitle>Weather Caster</CardTitle>
               <CardSubtitle>A simple current forecast web-application.</CardSubtitle>
               <Row className="stack">
-                <img className="proj-lang-logo" src={reactLogo} />
-                <img className="proj-lang-logo" src={javascriptLogo} />
+                <img className="proj-lang-logo" src={reactLogo} alt="React Logo" />
+                <img className="proj-lang-logo" src={javascriptLogo} alt="JavaScript Logo"/>
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/weather-caster">
@@ -104,8 +104,8 @@ const Projects = () => {
               <CardSubtitle>A web-application used to track beers that one has
                 tried over the years.</CardSubtitle>
               <Row className="stack">
-                <img className="proj-lang-logo" src={rubyLogo} />
-                <img className="proj-lang-logo" src={railsLogo} />
+                <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
+                <img className="proj-lang-logo" src={railsLogo} alt="Rails Logo" />
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/pint-trackr-rails">
@@ -124,7 +124,7 @@ const Projects = () => {
                 list of all books written and published by famous author, Sylvia
                 Day.</CardSubtitle>
               <Row className="stack">
-                <img className="proj-lang-logo" src={rubyLogo} />
+                <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/CLI-Project-Day-Library">
