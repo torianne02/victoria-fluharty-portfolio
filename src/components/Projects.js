@@ -83,7 +83,8 @@ const Projects = () => {
             <CardImg top width="50%" src={weatherCaster} alt="Weather Caster Screenshot" />
             <Card body>
               <CardTitle>Weather Caster</CardTitle>
-              <CardSubtitle>A simple current forecast web-application.</CardSubtitle>
+              <CardSubtitle>A simple current forecast web-application that utilizes
+                OpenWeatherMap's API.</CardSubtitle>
               <Row className="stack">
                 <img className="proj-lang-logo" src={reactLogo} alt="React Logo" />
                 <img className="proj-lang-logo" src={javascriptLogo} alt="JavaScript Logo"/>
@@ -120,9 +121,8 @@ const Projects = () => {
             <CardImg top width="50%" src={dayBooks} alt="DayBooks Screenshot" />
             <Card body>
               <CardTitle>DayBooks</CardTitle>
-              <CardSubtitle>A Ruby CLI gem that allows a user to comb through a
-                list of all books written and published by famous author, Sylvia
-                Day.</CardSubtitle>
+              <CardSubtitle>A Ruby CLI gem that displays a list of all books written
+                by famous author, Sylvia Day.</CardSubtitle>
               <Row className="stack">
                 <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
               </Row>
