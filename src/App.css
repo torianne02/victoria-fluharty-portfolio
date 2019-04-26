@@ -29,6 +29,12 @@ img.proj-lang-logo {
   margin-right: 5px;
 }
 
+img.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: contain;
+}
+
 div.card-title {
   font-size: 22px;
   color: #7C9082;
@@ -50,17 +56,7 @@ div.links.row {
   align-self: center;
   margin-top: 10px;
 }
-/* will implement no border but need borders ATM while building */
 
-/* div.card {
+div.card {
   border: none;
-} */
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
