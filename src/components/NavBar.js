@@ -5,7 +5,7 @@ import { Navbar, NavItem, NavLink, Nav } from 'reactstrap';
 const NavBar = () => {
   return (
     <Navbar>
-      <Nav className="nav">
+      <Nav className="ml-auto">
         <NavItem>
           <NavLink tag={Link} to="/about">About Me</NavLink>
         </NavItem>
