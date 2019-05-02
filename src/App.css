@@ -25,6 +25,22 @@
   color: #61dafb;
 }
 
+/* STYLING FOR NAVBAR */
+
+nav.navbar {
+  background-color: transparent;
+  text-align: right;
+}
+
+a.nav-link {
+  color: #684A52;
+  font-family: 'Shadows Into Light';
+  font-size: 28px;
+
+}
+
+/* STYLING FOR PROJECT CARDS */
+
 img.proj-lang-logo {
   height: 40px;
   width: 40px;
