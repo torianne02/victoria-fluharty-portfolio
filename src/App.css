@@ -42,11 +42,11 @@ div.card-title {
   text-align: center;
   font-family: 'Amatic SC';
   font-weight: 500;
-  font-size: 36px;
+  font-size: 38px;
 }
 
 div.card-subtitle {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Quicksand';
   color: #393D3F;
   text-align: center;
@@ -64,4 +64,6 @@ div.links.row {
 
 div.card {
   border: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
