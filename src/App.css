@@ -82,3 +82,17 @@ div.card {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+
+/* STYLING FOR ABOUT ME */
+
+div.about-me {
+  text-align: center;
+}
+
+div.about-me h1 {
+  font-family: 'Amatic SC';
+}
+
+div.about-me h5 {
+  font-family: 'Quicksand';
+}
