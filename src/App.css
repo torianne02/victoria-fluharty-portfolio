@@ -93,8 +93,7 @@ h1 {
   font-family: 'Amatic SC';
 }
 
-div.about-info {
-  position: absolute;
+div.about-info.col {
   border: 1px solid #393D3F;
 }
 
@@ -112,7 +111,7 @@ div.stack-info.col {
 
 /* MAIN IMAGE ON ABOUT ME PAGE */
 
-div.main-img {
+div.main-img.col {
   overflow: auto;
   border: 1px solid #393D3F;
 }
