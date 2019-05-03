@@ -90,7 +90,8 @@ div.about-me {
 }
 
 div.about-info {
-  height: 25%;
+  position: absolute;
+  border: 1px solid #393D3F;
 }
 
 div.about-info h1 {
@@ -104,10 +105,15 @@ div.about-info h5 {
 /* MAIN IMAGE ON ABOUT ME PAGE */
 
 div.main-img {
-  width: 50%;
+  overflow: auto;
+  border: 1px solid #393D3F;
 }
 
 img.main-img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   height: auto;
+  border-radius: 7%;
 }
