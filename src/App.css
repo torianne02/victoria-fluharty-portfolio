@@ -105,14 +105,9 @@ div.about-info h5 {
 
 div.main-img {
   width: 50%;
-  float: right;
 }
 
-div.main-img.media-right.media-top {
-  height: 25%;
+img.main-img {
   width: 100%;
-}
-
-img.media-object {
-  height: 400px;
+  height: auto;
 }
