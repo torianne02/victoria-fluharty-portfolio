@@ -18,6 +18,14 @@ const About = () => {
           </div>
         </Col>
       </Row>
+      <Row>
+        <Col className="stack">
+          <h1>My Stack:</h1>
+        </Col>
+        <Col className="stack-info">
+          
+        </Col>
+      </Row>
     </div>
   )
 }

@@ -89,13 +89,13 @@ div.about-me {
   text-align: center;
 }
 
+h1 {
+  font-family: 'Amatic SC';
+}
+
 div.about-info {
   position: absolute;
   border: 1px solid #393D3F;
-}
-
-div.about-info h1 {
-  font-family: 'Amatic SC';
 }
 
 div.about-info h5 {
