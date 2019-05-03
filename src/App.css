@@ -102,6 +102,14 @@ div.about-info h5 {
   font-family: 'Quicksand';
 }
 
+div.stack.col {
+  border: 1px solid #393D3F;
+}
+
+div.stack-info.col {
+  border: 1px solid #393D3F;
+}
+
 /* MAIN IMAGE ON ABOUT ME PAGE */
 
 div.main-img {
