@@ -14,7 +14,6 @@ const App = () => {
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           // need to add contact container and route
-          // need to add project container and route
         </Switch>
       </div>
     </Router>
