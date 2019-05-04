@@ -25,7 +25,7 @@
   color: #61dafb;
 } */
 
-/* STYLING FOR NAVBAR */
+/* ----------- STYLING FOR NAVBAR ----------- */
 
 nav.navbar {
   background-color: transparent;
@@ -38,7 +38,7 @@ a.nav-link {
   font-size: 3.4vw;
 }
 
-/* STYLING FOR PROJECT CARDS */
+/* ----------- STYLING FOR PROJECTS ----------- */
 
 img.proj-lang-logo {
   height: 40px;
@@ -83,7 +83,9 @@ div.card {
   margin-top: 5px;
 }
 
-/* STYLING FOR ABOUT ME */
+/* ----------- STYLING FOR ABOUT ME ----------- */
+
+/* ABOUT ME INTRO */
 
 div.about-me {
   text-align: center;
@@ -106,15 +108,7 @@ div.about-info h5 {
   font-size: 2.5vw;
 }
 
-div.stack.col {
-  border: 0.5px dashed #393D3F;
-}
-
-div.stack-info.col {
-  border: 0.5px dashed #393D3F;
-}
-
-/* MAIN IMAGE ON ABOUT ME PAGE */
+/* MAIN IMAGE */
 
 div.main-img.col {
   overflow: auto;
@@ -128,4 +122,20 @@ img.main-img {
   width: 95%;
   height: auto;
   border-radius: 7%;
+}
+
+/* MY STACK INFO */
+
+div.stack-title.col-sm-3 {
+  border: 0.5px dashed #393D3F;
+}
+
+div.stack-info.col {
+  border: 0.5px dashed #393D3F;
+}
+
+/* LANGUAGE LOGOS ON ABOUT ME PAGE */
+
+img.lang-logo {
+  margin-right: 10px;
 }
