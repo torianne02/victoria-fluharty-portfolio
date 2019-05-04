@@ -1,7 +1,6 @@
 ## TODO
 
 1. Create container for contact.
-2. Currently hard-coding projects for MVP - will update to adding a DB or calling GitHub API
-3. Add about me information.
+2. Create contact form.
+3. Language logos size on About.js need to be responsive.
 4. Learn how to add gmail stuff to contact form in react.
-5. Complete unfinished components.
