@@ -7,8 +7,10 @@ const About = () => {
     <div className="about-me">
       <Row>
         <Col className="about-info">
-            <h1>Hello 👋🏼 I am Victoria.</h1>
-            <h5>A creative, passionate, and driven software engineer with experience in Ruby and Javascript frameworks that strives to write clean, efficient code.</h5>
+          <h1>Hello 👋🏼 I am Victoria.</h1>
+          <h5>A creative, passionate, and driven software engineer with experience
+            in Ruby and Javascript frameworks that strives to write clean,
+            efficient code.</h5>
         </Col>
         <Col className="main-img">
             <img className="main-img" src={mainImg} alt="Photo of me, Victoria." />
