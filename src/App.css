@@ -35,7 +35,7 @@ nav.navbar {
 a.nav-link {
   color: #684A52;
   font-family: 'Shadows Into Light';
-  font-size: 28px;
+  font-size: 3.4vw;
 }
 
 /* STYLING FOR PROJECT CARDS */
@@ -57,11 +57,11 @@ div.card-title {
   text-align: center;
   font-family: 'Amatic SC';
   font-weight: 500;
-  font-size: 38px;
+  font-size: 4.5vw;
 }
 
 div.card-subtitle {
-  font-size: 14px;
+  font-size: 1.5vw;
   font-family: 'Quicksand';
   color: #393D3F;
   text-align: center;
@@ -89,32 +89,36 @@ div.about-me {
   text-align: center;
 }
 
+div.about-info.col {
+  border: 0.5px dashed #393D3F;
+  display: grid;
+  align-items: center;
+}
+
 h1 {
   color: #7C9082;
   font-family: 'Amatic SC';
-}
-
-div.about-info.col {
-  border: 1px solid #393D3F;
+  font-size: 6vw;
 }
 
 div.about-info h5 {
   font-family: 'Quicksand';
+  font-size: 2.5vw;
 }
 
 div.stack.col {
-  border: 1px solid #393D3F;
+  border: 0.5px dashed #393D3F;
 }
 
 div.stack-info.col {
-  border: 1px solid #393D3F;
+  border: 0.5px dashed #393D3F;
 }
 
 /* MAIN IMAGE ON ABOUT ME PAGE */
 
 div.main-img.col {
   overflow: auto;
-  border: 1px solid #393D3F;
+  border: 0.5px dashed #393D3F;
 }
 
 img.main-img {
