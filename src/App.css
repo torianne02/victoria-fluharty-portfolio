@@ -142,5 +142,6 @@ div.stack-info.col {
 /* LANGUAGE LOGOS ON ABOUT ME PAGE */
 
 img.lang-logo {
-  margin-right: 10px;
+  margin-right: 1.5%;
+  width: auto;
 }
