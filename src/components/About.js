@@ -29,11 +29,11 @@ const About = () => {
         </Col>
         <Col className="stack-info">
           <Row className="language-logos">
-            <img className="lang-logo" src={reactLogo} alt="React Logo" />
             <img className="lang-logo" src={rubyLogo} alt="Ruby Logo" />
             <img className="lang-logo" src={railsLogo} alt="Rails Logo" />
-            <img className="lang-logo" src={reduxLogo} alt="Redux Logo" />
             <img className="lang-logo" src={javascriptLogo} alt="Javascript Logo" />
+            <img className="lang-logo" src={reactLogo} alt="React Logo" />
+            <img className="lang-logo" src={reduxLogo} alt="Redux Logo" />
             <img className="lang-logo" src={sqliteLogo} alt="SQLite Logo" />
             <img className="lang-logo" src={postgresLogo} alt="PostgreSQL Logo" />
           </Row>
