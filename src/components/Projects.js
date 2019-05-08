@@ -16,7 +16,7 @@ import githubLogo from '../images/logos/github-logo-sm.png';
 const Projects = () => {
   return (
     <div className="projects">
-      <Row>
+      <Row className="projects-row-1">
         <Col sm="4" py="2">
           <Card className="project">
             <CardImg top width="50%" src={vfPortfolio} alt="Victoria Fluharty's Portfolio Screenshot" />
@@ -78,7 +78,7 @@ const Projects = () => {
           </Card>
         </Col>
       </Row>
-      <Row>
+      <Row className="projects-row-2">
         <Col sm="4" py="2">
           <Card className="project">
             <CardImg top width="50%" src={weatherCaster} alt="Weather Caster Screenshot" />

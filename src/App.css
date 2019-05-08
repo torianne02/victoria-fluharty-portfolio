@@ -74,6 +74,16 @@ div.card {
   height: 95%;
 }
 
+div.projects-row-1.row {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+div.projects-row-2.row {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 /* ----------- STYLING FOR ABOUT ME ----------- */
 
 /* ABOUT ME INTRO */
