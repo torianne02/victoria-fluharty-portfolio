@@ -39,6 +39,7 @@ img.card-img-top {
   margin-top: 3%;
   padding: 1.5% 1.5%;
   background: #AEFFD8;
+  border-radius: 3%;
 }
 
 div.card-title {
