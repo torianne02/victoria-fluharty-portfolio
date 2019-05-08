@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Card, CardImg, CardTitle, CardSubtitle } from 'reactstrap';
+import vfPortfolio from '../images/projects/vf-portfolio.png';
 import crawfordWedding from '../images/projects/crawford-wedding.png';
 import dayBooks from '../images/projects/day-books.png';
 import pintTrackr1 from '../images/projects/pint-trackr-1.0.png';
@@ -18,7 +19,7 @@ const Projects = () => {
       <Row>
         <Col sm="4" py="2">
           <Card className="project">
-            // add CardImg for image of project
+            <CardImg top width="50%" src={vfPortfolio} alt="Victoria Fluharty's Portfolio Screenshot" />
             <Card body>
               <CardTitle>Personal Portfolio</CardTitle>
               <CardSubtitle>Portfolio web-applicaiton built to display projects
