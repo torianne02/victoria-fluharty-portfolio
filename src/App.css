@@ -83,7 +83,6 @@ div.about-me {
 }
 
 div.about-info.col {
-  /* border: 0.5px dashed #393D3F; */
   display: grid;
   align-items: center;
 }
@@ -104,7 +103,6 @@ div.about-info h5 {
 
 div.main-img.col {
   overflow: auto;
-  /* border: 0.5px dashed #393D3F; */
 }
 
 img.main-img {
@@ -120,14 +118,6 @@ img.main-img {
 
 div.stack.row {
   margin-top: 10%;
-}
-
-div.stack-title.col-sm-3 {
-  /* border: 0.5px dashed #393D3F; */
-}
-
-div.stack-info.col {
-  /* border: 0.5px dashed #393D3F; */
 }
 
 /* LANGUAGE LOGOS ON ABOUT ME PAGE */
