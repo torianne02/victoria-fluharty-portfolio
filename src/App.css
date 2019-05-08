@@ -37,6 +37,7 @@ img.card-img-top {
   height: 20vw;
   object-fit: contain;
   margin-top: 3%;
+  padding: 1.5% 1.5%;
   background: #AEFFD8;
 }
 
