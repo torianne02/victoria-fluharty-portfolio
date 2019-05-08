@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Open+Sans+Condensed:300|Quicksand|Raleway|Shadows+Into+Light|Slabo+27px');
 
-.App {
+html {
+  margin: 0;
+  height: 100%;
+  background: #ECF0F1;
+}
+
+.app {
   text-align: center;
+  background: #ECF0F1;
 }
 
 /* .App-logo {
