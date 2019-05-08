@@ -25,7 +25,7 @@ const About = () => {
       </Row>
       <Row className="stack">
         <Col sm="3" className="stack-title">
-          <h1>My Stack:</h1>
+          <h1>My Stack</h1>
         </Col>
         <Col className="stack-info">
           <Row className="language-logos">
