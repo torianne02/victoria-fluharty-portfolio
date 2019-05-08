@@ -128,9 +128,22 @@ div.stack.row {
   align-items: center;
 }
 
+div.stack-title.col-sm-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.language-logos.row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* LANGUAGE LOGOS ON ABOUT ME PAGE */
 
 img.lang-logo {
-  margin-right: 1.5%;
-  width: auto;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  height: auto;
 }
