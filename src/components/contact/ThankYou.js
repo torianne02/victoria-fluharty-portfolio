@@ -6,8 +6,9 @@ import React, { Component } from 'react';
 class ThankYou extends Component {
   render() {
     return (
-      // will add thank you card info
-      // will put it in a div tag
+      <div className="thank-you">
+        <h1>THANK YOU</h1>
+      </div>
     )
   }
 }
