@@ -1,5 +1,5 @@
 import React from 'react';
-// need to import form attr from reactstrap
+import { Container, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const ContactForm = () => {
   return (
