@@ -1,18 +1,18 @@
 import React from 'react';
 import { Container, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-// need to add onChange, onSubmit, and value attr to each form group
-
-const ContactForm = () => {
+const ContactForm = props => {
   return (
     <Container className="contact-form">
-      <Form>
+      <Form onSubmit={ props.handleOnSubmit }>
         <Col>
           <FormGroup>
             <Label for="name" hidden>Name</Label>
             <Input type="text"
               name="name"
-              placeholder="Full Name" />
+              placeholder="Full Name"
+              onChange={ props.handleOnChange }
+              value={ props.nameValue } />
           </FormGroup>
         </Col>
         <Col>
@@ -20,7 +20,9 @@ const ContactForm = () => {
             <Label for="email" hidden>Email</Label>
             <Input type="email"
               name="email"
-              placeholder="Email" />
+              placeholder="Email"
+              onChange={ props.handleOnChange }
+              value={ props.emailValue } />
           </FormGroup>
         </Col>
         <Col>
@@ -28,7 +30,9 @@ const ContactForm = () => {
             <Label for="message" hidden>Message</Label>
             <Input type="text"
               name="message"
-              placeholder="Message" />
+              placeholder="Message"
+              onChange={ props.handleOnChange }
+              value={ props.messageValue } />
           </FormGroup>
         </Col>
         <Button>Submit</Button>
