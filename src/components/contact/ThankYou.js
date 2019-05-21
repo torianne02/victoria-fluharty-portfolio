@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-// need to import card attr from reactstrap
-
-// THIS WILL BE A 'THANK YOU FOR SENDING ME AN EMAIL - I WILL REPLY SHORTLY'
+import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 
 class ThankYou extends Component {
   render() {
     return (
       <div className="thank-you">
-        <h1>THANK YOU</h1>
+        <Card>
+          <CardBody>
+            <CardTitle>
+              Thank You
+            </CardTitle>
+            <CardText>
+              I will get back to you with a response as soon as I possibly can.
+            </CardText>
+          </CardBody>
+        </Card>
       </div>
     )
   }
