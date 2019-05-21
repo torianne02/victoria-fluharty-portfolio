@@ -25,8 +25,7 @@ class ContactContainer extends Component {
     event.preventDefault();
 
     if (this.validate()) {
-      // add function to POST data to API
-      renderThankYou()
+      this.renderThankYou()
     }
   }
 
@@ -43,6 +42,21 @@ class ContactContainer extends Component {
   renderThankYou = () => {
     return (
       <Redirect to='/thank-you' />
+    )
+  }
+
+  render() {
+    return (
+      <div className="contact">
+        <h1>Contact Me</h1>
+        <ContactForm
+          nameValue={ this.state.name }
+          emailValue={ this.state.email }
+          messageValue={ this.state.message }
+          handleOnChange={ this.handleOnChange }
+          handleOnSubmit={ this.handleOnSubmit }
+        />
+      </div>
     )
   }
 }
