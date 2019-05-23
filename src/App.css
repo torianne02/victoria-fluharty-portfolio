@@ -160,3 +160,14 @@ img.lang-logo {
   margin-left: 0.5%;
   height: auto;
 }
+
+/* THANK YOU PAGE */
+
+div.thank-you {
+  margin-top: 15%;
+}
+
+p.card-text {
+  color: #5D576B;
+  font-size: 1.45vw;
+}
