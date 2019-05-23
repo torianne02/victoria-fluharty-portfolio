@@ -116,6 +116,14 @@ div.about-info h5 {
   color: #5D576B;
 }
 
+div.social-links.row {
+  display: block;
+}
+
+img.social-icon {
+  margin-right: 5%;
+}
+
 /* MAIN IMAGE */
 
 div.main-img.col {
