@@ -29,7 +29,9 @@ a.nav-link {
 img.proj-lang-logo {
   height: 40px;
   width: 40px;
-  margin-right: 5px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 img.card-img-top {
@@ -171,6 +173,17 @@ img.lang-logo {
   margin-left: 0.5%;
   max-width: 25%;
   height: auto;
+}
+
+/* CONTACT PAGE */
+
+button.btn.btn-secondary {
+  background-color: #5D576B;
+}
+
+textarea.form-control,
+input.form-control {
+  border-color: #0E7C7B;
 }
 
 /* THANK YOU PAGE */
