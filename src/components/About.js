@@ -33,7 +33,7 @@ const About = () => {
         </Col>
         <Col className="interests-info">
           <ul>
-            <li><h5>I love animals - I am a fur momma to two rambunctious cats.</h5></li>
+            <li><h5>I love animals - fur momma to two rambunctious cats.</h5></li>
             <li><h5>I absolutely love being outdoors, especially if it involves hiking
                and camping.</h5></li>
             <li><h5>I enjoy traveling internationally, but I have a soft spot for
