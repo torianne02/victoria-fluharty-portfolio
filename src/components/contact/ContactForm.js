@@ -28,14 +28,14 @@ const ContactForm = props => {
         <Col>
           <FormGroup>
             <Label for="message" hidden>Message</Label>
-            <Input type="text"
+            <Input type="textarea"
               name="message"
               placeholder="Message"
               onChange={ props.handleOnChange }
               value={ props.messageValue } />
           </FormGroup>
         </Col>
-        <Button>Submit</Button>
+        <Button>Send</Button>
       </Form>
     </Container>
   )
