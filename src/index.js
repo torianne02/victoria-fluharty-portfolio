@@ -5,6 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const API_KEY = `${process.env.REACT_APP_GOOGLE_API_KEY}`
+const CLIENT_ID = `${process.env.REACT_APP_GOOGLE_CLIENT_ID}`
+const CLIENT_SECRET = `${process.env.REACT_APP_GOOGLE_CLIENT_SECRET}`
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

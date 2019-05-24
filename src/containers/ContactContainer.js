@@ -39,6 +39,12 @@ class ContactContainer extends Component {
     }
   }
 
+  // sendEmail = () => {
+  //   sendMessage({
+  //
+  //   })
+  // }
+
   renderThankYou = () => {
     return (
       <Redirect to='/thank-you' />
