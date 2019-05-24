@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, NavItem, NavLink, Nav } from 'reactstrap';
+import { Navbar, NavItem, NavLink, Nav, NavbarBrand } from 'reactstrap';
 
 const NavBar = () => {
   return (
     <Navbar>
+      <NavbarBrand tag={Link} to="/">VF</NavbarBrand>
       <Nav className="ml-auto">
         <NavItem>
           <NavLink tag={Link} to="/about">About Me</NavLink>

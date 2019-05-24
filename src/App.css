@@ -30,6 +30,12 @@ a.nav-link {
   font-size: 3vw;
 }
 
+a.navbar-brand {
+  color: #5D576B;
+  font-family: 'Quicksand';
+  font-size: 5vw;
+}
+
 /* ----------- STYLING FOR PROJECTS ----------- */
 
 img.proj-lang-logo {
@@ -209,18 +215,20 @@ div.interests-info.col {
   text-align: left;
 }
 
-/* CONTACT PAGE */
+/* ----------- STYLING CONTACT ME ----------- */
 
 button.btn.btn-secondary {
   background-color: #5D576B;
+  font-family: 'Quicksand';
 }
 
 textarea.form-control,
 input.form-control {
   border-color: #0E7C7B;
+  font-family: 'Quicksand';
 }
 
-/* THANK YOU PAGE */
+/* ----------- STYLING FOR THANK YOU ----------- */
 
 div.thank-you {
   margin-top: 15%;
