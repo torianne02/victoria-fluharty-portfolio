@@ -94,30 +94,36 @@ div.projects-row-2.row {
   margin-right: 1%;
 }
 
-/* ----------- STYLING FOR ABOUT ME ----------- */
+/* ----------- STYLING FOR HOME ----------- */
 
-/* ABOUT ME INTRO */
+div.home {
+  display: grid;
+  align-items: center;
+  margin-top: 8%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+}
+
+div.home h5 {
+  text-align: center;
+  margin-top: 3.5%;
+  font-family: 'Quicksand';
+  font-size: 2vw;
+  color: #5D576B;
+}
 
 div.intro.row {
   margin-left: 1%;
   margin-right: 1%;
 }
 
-div.about-me {
-  text-align: center;
-  margin-top: 3.5%;
-}
-
-div.about-info.col {
+div.intro-info.col {
   display: grid;
   align-items: center;
 }
 
-div.about-info h5 {
-  font-family: 'Quicksand';
-  font-size: 2vw;
-  color: #5D576B;
-}
+/* SOCIAL ICONS */
 
 div.social-links.row {
   display: block;
@@ -144,6 +150,16 @@ img.main-img {
   border-radius: 7%;
 }
 
+/* ----------- STYLING FOR ABOUT ME ----------- */
+
+div.about-me {
+  text-align: center;
+  margin-top: 3.5%;
+  font-family: 'Quicksand';
+  font-size: 2vw;
+  color: #5D576B;
+}
+
 /* MY STACK INFO */
 
 div.stack.row {
@@ -155,9 +171,8 @@ div.stack.row {
 }
 
 div.stack-title.col-sm-3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  align-items: center;
 }
 
 div.language-logos.row {
@@ -166,8 +181,6 @@ div.language-logos.row {
   margin-right: auto;
 }
 
-/* LANGUAGE LOGOS ON ABOUT ME PAGE */
-
 img.lang-logo {
   display: inline-block;
   margin-right: 0.5%;
@@ -175,6 +188,25 @@ img.lang-logo {
   margin-bottom: 2.5%;
   max-width: 25%;
   height: auto;
+}
+
+/* MY INTERESTS INFO */
+
+div.interests.row {
+  margin-top: 2.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+div.interests-title.col-sm-3 {
+  display: grid;
+  align-items: center;
+}
+
+div.interests-info.col {
+  text-align: left;
 }
 
 /* CONTACT PAGE */
