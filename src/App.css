@@ -11,6 +11,12 @@ html {
   background: #F6FFF8;
 }
 
+h1 {
+  color: #0E7C7B;
+  font-family: 'Amatic SC';
+  font-size: 5vw;
+}
+
 /* ----------- STYLING FOR NAVBAR ----------- */
 
 nav.navbar {
@@ -106,12 +112,6 @@ div.about-me {
 div.about-info.col {
   display: grid;
   align-items: center;
-}
-
-h1 {
-  color: #0E7C7B;
-  font-family: 'Amatic SC';
-  font-size: 5vw;
 }
 
 div.about-info h5 {
