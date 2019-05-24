@@ -40,8 +40,10 @@ img.card-img-top {
   object-fit: contain;
   margin-top: 3%;
   padding: 1.5% 1.5%;
-  background: #AEFFD8;
+  border-style: solid;
   border-radius: 3%;
+  border-color: #0E7C7B;
+  border-width: thin;
 }
 
 div.card-title {
