@@ -54,7 +54,8 @@ img.card-img-top {
   padding: 1.5% 1.5%;
   border-style: solid;
   border-radius: 3%;
-  border-color: #AEFFD8;
+  border-color: #006989;
+  border-width: thin;
 }
 
 div.card-title {
