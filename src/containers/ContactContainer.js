@@ -11,6 +11,7 @@ class ContactContainer extends Component {
       name: '',
       email: '',
       message: '',
+      submitted: false,
     }
     this.handleOnChange = this.handleOnChange.bind(this);
   }
@@ -26,14 +27,13 @@ class ContactContainer extends Component {
 
     if (this.validate()) {
       this.sendEmail();
-      this.renderThankYou();
+      this.setState({
+        name: '',
+        email: '',
+        message: '',
+        submitted: true,
+      })
     }
-
-    this.setState({
-      name: '',
-      email: '',
-      message: '',
-    })
   }
 
   validate = () => {
@@ -82,6 +82,7 @@ class ContactContainer extends Component {
           handleOnChange={ this.handleOnChange }
           handleOnSubmit={ this.handleOnSubmit }
         />
+        { this.state.submitted && this.renderThankYou() }
       </div>
     )
   }
