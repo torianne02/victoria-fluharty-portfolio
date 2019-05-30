@@ -30,20 +30,22 @@ class ContactContainer extends Component {
   }
 
   validate = () => {
+    let pattern = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
+
     if (!this.state.name || !this.state.email) {
       return alert('Oops! Please make sure to provide your name and email.')
     } else if (!this.state.message) {
       return alert('Please make sure to include a message so that I can respond to your inquiry to the best of my abilities.')
+    } else if (!pattern.test(this.state.email)){
+      return alert('Please enter valid email.')
     } else {
       return true
     }
   }
 
-  // sendEmail = () => {
-  //   sendMessage({
-  //
-  //   })
-  // }
+  sendEmail = () => {
+
+  }
 
   renderThankYou = () => {
     return (
