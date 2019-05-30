@@ -42,6 +42,8 @@ img.proj-lang-logo {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 1.5px;
+  padding-left: 1.5px;
 }
 
 img.card-img-top {
