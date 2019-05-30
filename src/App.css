@@ -39,9 +39,7 @@ a.navbar-brand {
 /* ----------- STYLING FOR PROJECTS ----------- */
 
 img.proj-lang-logo {
-  height: 40px;
-  width: 40px;
-  display: inline-block;
+  display: block;
   margin-right: auto;
   margin-left: auto;
 }
