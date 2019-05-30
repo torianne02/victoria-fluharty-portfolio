@@ -32,7 +32,7 @@ const Home = () => {
             efficient code.</h5>
         </Col>
         <Col className="main-img">
-            <img className="main-img" src={mainImg} alt="Photo of me, Victoria." />
+            <img className="main-img" src={mainImg} alt="Victoria" />
         </Col>
       </Row>
     </div>
