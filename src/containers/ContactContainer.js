@@ -25,8 +25,8 @@ class ContactContainer extends Component {
     event.preventDefault();
 
     if (this.validate()) {
-      console.log("form passed validation")
-      this.sendEmail()
+      this.sendEmail();
+      this.renderThankYou();
     }
 
     this.setState({
@@ -52,20 +52,17 @@ class ContactContainer extends Component {
 
   sendEmail = () => {
     let templateParams = {
-      from_name: this.state.name + '(' + this.state.email + ')',
-      to_name: 'victoria.fluharty@gmail.com',
+      from_name: this.state.name,
+      reply_to: this.state.email,
+      to_email: 'victoria.fluharty@gmail.com',
       message: this.state.message
     }
 
     let service_id = "default_service";
     let template_id = "portfolio_site";
     let user_id = `${process.env.REACT_APP_USER_ID}`
-    console.log(user_id)
 
     emailjs.send(service_id, template_id, templateParams, user_id)
-      .then(function(){
-        this.renderThankYou()
-      })
   }
 
   renderThankYou = () => {
