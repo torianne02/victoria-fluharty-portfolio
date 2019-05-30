@@ -6,11 +6,16 @@ import dayBooks from '../images/projects/day-books.png';
 import pintTrackr1 from '../images/projects/pint-trackr-1.0.png';
 import pintTrackr2 from '../images/projects/pint-trackr-2.0.png';
 import weatherCaster from '../images/projects/weather-caster.png';
+import pizzaAnalytics from '../images/projects/pizza-analytics.png';
 import javascriptLogo from '../images/languages/javascript-logo-sm.png';
 import railsLogo from '../images/languages/rails-logo-sm.png';
 import rubyLogo from '../images/languages/ruby-logo-sm.png';
 import reactLogo from '../images/languages/react-logo-sm.png';
 import reduxLogo from '../images/languages/redux-logo-sm.png';
+import grapeLogo from '../images/languages/grape-logo-sm.png';
+import sequelLogo from '../images/languages/sequel-logo-sm.png';
+import postgresLogo from '../images/languages/postgres-logo-sm.png';
+import sqliteLogo from '../images/languages/sqlite-logo-sm.png';
 import githubLogo from '../images/logos/github-logo-sm.png';
 
 const Projects = () => {
@@ -48,6 +53,7 @@ const Projects = () => {
                 <img className="proj-lang-logo" src={railsLogo} alt="Rails Logo" />
                 <img className="proj-lang-logo" src={reduxLogo} alt="Redux Logo" />
                 <img className="proj-lang-logo" src={javascriptLogo} alt="Javascript Logo" />
+                <img className="proj-lang-logo" src={sqliteLogo} alt="SQLite Logo" />
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/crawford-wedding-frontend">
@@ -68,6 +74,7 @@ const Projects = () => {
                 <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
                 <img className="proj-lang-logo" src={railsLogo} alt="Rails Logo" />
                 <img className="proj-lang-logo" src={javascriptLogo} alt="JavaScript Logo" />
+                <img className="proj-lang-logo" src={postgresLogo} alt="PostgreSQL Logo" />
               </Row>
               <Row className="links">
                 <a href="https://github.com/torianne02/pint-trackr-rails-js">
@@ -100,17 +107,20 @@ const Projects = () => {
         </Col>
         <Col sm="4" py="2">
           <Card className="project">
-            <CardImg top width="50%" src={pintTrackr1} alt="PintTrackr 1.0 Screenshot" />
+            <CardImg top width="50%" src={pizzaAnalytics} alt="Pizza Analytics Screenshot" />
             <Card body>
-              <CardTitle>PintTrackr 1.0</CardTitle>
-              <CardSubtitle>A web-application used to track beers that one has
-                tried over the years.</CardSubtitle>
+              <CardTitle>Pizza Analytics</CardTitle>
+              <CardSubtitle>A web-application used to display pizzas and consumers
+                by making HTTP requests to a Ruby RESTful API.</CardSubtitle>
               <Row className="stack">
                 <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
-                <img className="proj-lang-logo" src={railsLogo} alt="Rails Logo" />
+                <img className="proj-lang-logo" src={grapeLogo} alt="Grape Logo" />
+                <img className="proj-lang-logo" src={sequelLogo} alt="Sequel Logo" />
+                <img className="proj-lang-logo" src={postgresLogo} alt="PostgreSQL Logo" />
+                <img className="proj-lang-logo" src={reactLogo} alt="React Logo" />
               </Row>
               <Row className="links">
-                <a href="https://github.com/torianne02/pint-trackr-rails">
+                <a href="https://github.com/torianne02/pizza-analytics-frontend">
                   <img src={githubLogo} alt="Github logo as repository link" />
                 </a>
               </Row>
