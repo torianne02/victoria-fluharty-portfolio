@@ -3,7 +3,6 @@ import { Row, Col, Card, CardImg, CardTitle, CardSubtitle } from 'reactstrap';
 import vfPortfolio from '../images/projects/vf-portfolio.png';
 import crawfordWedding from '../images/projects/crawford-wedding.png';
 import dayBooks from '../images/projects/day-books.png';
-import pintTrackr1 from '../images/projects/pint-trackr-1.0.png';
 import pintTrackr2 from '../images/projects/pint-trackr-2.0.png';
 import weatherCaster from '../images/projects/weather-caster.png';
 import pizzaAnalytics from '../images/projects/pizza-analytics.png';
