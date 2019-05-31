@@ -14,16 +14,16 @@ const Home = () => {
           <h1>Hello <Link to="/about" className="wave"><span role="img" aria-labelledby="wave">👋🏼</span></Link> I am vicTORIa.</h1>
 
           <Row className="social-links">
-            <a href="https://github.com/torianne02">
+            <a href="https://github.com/torianne02" target="_blank">
               <img className="social-icon" src={githubLogo} alt="Github logo as profile link" />
             </a>
-            <a href="https://dev.to/torianne02">
+            <a href="https://dev.to/torianne02" target="_blank">
               <img className="social-icon" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Victoria Fluharty's DEV Profile" height="32px" width="32px" />
             </a>
-            <a href="https://twitter.com/_torrborr">
+            <a href="https://twitter.com/_torrborr" target="_blank">
               <img className="social-icon" src={twitterLogo} alt="Twitter logo as profile link" />
             </a>
-            <a href="https://www.linkedin.com/in/victoria-fluharty-741129b4/">
+            <a href="https://www.linkedin.com/in/victoria-fluharty-741129b4/" target="_blank">
               <img className="social-icon" src={linkedinLogo} alt="LinkedIn logo as profile link" />
             </a>
           </Row>
