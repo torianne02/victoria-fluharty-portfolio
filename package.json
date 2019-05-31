@@ -2,7 +2,7 @@
   "name": "victoria-fluharty-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://torianne02.github.io/victoria-fluharty-portfolio",
+  "homepage": "https://torianne02.github.io/victoria-fluharty-portfolio",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "emailjs-com": "^2.3.2",
