@@ -40,7 +40,9 @@ const About = () => {
                traveling my own country. My ultimate goal is visiting all 50 states -
                currently at 36.</h5></li>
             <li><h5>My passion truly lies within helping others, no matter how big or
-            small of an impact I make. </h5></li>
+              small of an impact I make. </h5></li>
+            <li><h5>I love ice hockey and previously worked as a head athletic
+              trainer for a professional ice hockey team in the ECHL.</h5></li>
           </ul>
         </Col>
       </Row>
