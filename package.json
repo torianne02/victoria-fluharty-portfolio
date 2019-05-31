@@ -2,7 +2,6 @@
   "name": "victoria-fluharty-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://torianne02.github.io/victoria-fluharty-portfolio",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "emailjs-com": "^2.3.2",
@@ -15,8 +14,6 @@
     "typescript": "^3.4.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
