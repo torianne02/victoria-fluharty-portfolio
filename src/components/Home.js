@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import mainImg from '../images/rr-library-vf.jpg';
 import githubLogo from '../images/logos/github-logo-sm.png';
 import twitterLogo from '../images/logos/twitter-logo-sm.png';
@@ -10,7 +11,7 @@ const Home = () => {
     <div className="home">
       <Row className="intro">
         <Col className="intro-info">
-          <h1>Hello 👋🏼 I am Victoria.</h1>
+          <h1>Hello <Link to="/about" className="wave"><span role="img" aria-labelledby="wave">👋🏼</span></Link> I am vicTORIa.</h1>
 
           <Row className="social-links">
             <a href="https://github.com/torianne02">

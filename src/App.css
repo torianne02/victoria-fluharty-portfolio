@@ -130,6 +130,10 @@ div.intro-info.col {
   align-items: center;
 }
 
+a.wave {
+  text-decoration: none;
+}
+
 /* SOCIAL ICONS */
 
 div.social-links.row {
