@@ -23,3 +23,5 @@ Everyone interacting in the Crawford-Wedding project's codebases, issue trackers
 
 ## Credits
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project was deployed using [Heroku](https://devcenter.heroku.com/).
