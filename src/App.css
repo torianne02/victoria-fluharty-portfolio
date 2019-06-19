@@ -171,10 +171,33 @@ div.about-me {
   color: #5D576B;
 }
 
+b {
+  color: #0E7C7B;
+}
+
+/* MY BACKGROUND INFO */
+
+div.background.row {
+  margin-top: 6%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+div.background-title.col-sm-3 {
+  display: grid;
+  align-items: center;
+}
+
+div.background-info.col {
+  text-align: left;
+}
+
 /* MY STACK INFO */
 
 div.stack.row {
-  margin-top: 8%;
+  margin-top: 2.5%;
   margin-left: 1%;
   margin-right: 1%;
   margin-bottom: 4%;
