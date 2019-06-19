@@ -63,7 +63,7 @@ div.card-title {
   text-align: center;
   font-family: 'Amatic SC';
   font-weight: 500;
-  font-size: 4.5vw;
+  font-size: 4vw;
 }
 
 div.card-subtitle {
@@ -92,13 +92,13 @@ div.card {
 }
 
 div.projects-row-1.row {
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 div.projects-row-2.row {
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 /* ----------- STYLING FOR HOME ----------- */
