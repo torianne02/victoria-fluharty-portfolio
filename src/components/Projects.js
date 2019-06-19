@@ -110,7 +110,7 @@ const Projects = () => {
             <Card body>
               <CardTitle>Pizza Analytics</CardTitle>
               <CardSubtitle>A web-application used to display pizzas and consumers
-                by making HTTP requests to a Ruby RESTful API.</CardSubtitle>
+                by making requests to a RESTful Ruby API.</CardSubtitle>
               <Row className="stack">
                 <img className="proj-lang-logo" src={rubyLogo} alt="Ruby Logo" />
                 <img className="proj-lang-logo" src={grapeLogo} alt="Grape Logo" />
