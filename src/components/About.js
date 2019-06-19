@@ -13,7 +13,7 @@ const About = () => {
     <div className="about-me">
       <Row className="stack">
         <Col sm="3" className="stack-title">
-          <h1>My Stack</h1>
+          <h1>Tech Stack</h1>
         </Col>
         <Col className="stack-info">
           <Row className="language-logos">
@@ -41,8 +41,8 @@ const About = () => {
                currently at 36.</h5></li>
             <li><h5>My passion truly lies within helping others, no matter how big or
               small of an impact I make. </h5></li>
-            <li><h5>I love ice hockey and previously worked as a head athletic
-              trainer for a professional ice hockey team in the ECHL.</h5></li>
+            <li><h5>I love ice hockey and previously worked as a <b>head athletic
+              trainer</b> for a <b>professional ice hockey</b> team in the <b>ECHL</b>.</h5></li>
           </ul>
         </Col>
       </Row>
