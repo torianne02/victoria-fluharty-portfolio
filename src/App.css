@@ -3,18 +3,22 @@
 html {
   margin: 0;
   height: 100%;
-  background: #F6FFF8;
+  background: #fffcf2;
 }
 
 .app {
   text-align: center;
-  background: #F6FFF8;
+  background: #fffcf2;
 }
 
 h1 {
-  color: #0E7C7B;
+  color: #987284;
   font-family: 'Amatic SC';
   font-size: 5vw;
+}
+
+b {
+  color: #987284;
 }
 
 /* ----------- STYLING FOR NAVBAR ----------- */
@@ -25,26 +29,18 @@ nav.navbar {
 }
 
 a.nav-link {
-  color: #006989;
+  color: #987284;
   font-family: 'Shadows Into Light';
   font-size: 3vw;
 }
 
 a.navbar-brand {
-  color: #5D576B;
+  color: #987284;
   font-family: 'Quicksand';
   font-size: 5vw;
 }
 
 /* ----------- STYLING FOR PROJECTS ----------- */
-
-img.proj-lang-logo {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1.5px;
-  padding-left: 1.5px;
-}
 
 img.card-img-top {
   width: 100%;
@@ -54,16 +50,20 @@ img.card-img-top {
   padding: 1.5% 1.5%;
   border-style: solid;
   border-radius: 3%;
-  border-color: #0E7C7B;
+  border-color: #987284;
   border-width: thin;
 }
 
-div.card-title {
-  color: #0E7C7B;
+div.card-title a {
+  color: #987284;
   text-align: center;
   font-family: 'Amatic SC';
   font-weight: 500;
   font-size: 4vw;
+}
+
+div.card-title a:hover {
+  color: #987284;
 }
 
 div.card-subtitle {
@@ -78,6 +78,11 @@ div.stack.row {
   margin-top: 10px;
 }
 
+div.stack.row p {
+  font-size: 1.15vw;
+  color: #5D576B;
+}
+
 div.links.row {
   align-self: center;
   margin-top: 10px;
@@ -87,7 +92,7 @@ div.card {
   border: none;
   margin-bottom: 4%;
   margin-top: 3.5%;
-  background: #F6FFF8;
+  background: #fffcf2;
   height: 95%;
 }
 
@@ -172,10 +177,6 @@ div.about-me {
   line-height: 2%;
 }
 
-b {
-  color: #0E7C7B;
-}
-
 /* MY BACKGROUND INFO */
 
 div.background.row {
@@ -253,7 +254,7 @@ button.btn.btn-secondary {
 
 textarea.form-control,
 input.form-control {
-  border-color: #0E7C7B;
+  border-color: #987284;
   font-family: 'Quicksand';
 }
 
